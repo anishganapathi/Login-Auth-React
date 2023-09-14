@@ -1,5 +1,6 @@
 import React from 'react';
 import Login from '../src/components/Login';
+import Profile from "./pages/profile";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
@@ -11,8 +12,8 @@ function App() {
       <Router>
     
         <Routes>
-          
-          <Route exact path="/login" element={<Login/>}/>
+          <Route path="/profile" element={<Profile />} />
+          <Route exact path="/" element={<Login/>}/>
          
         </Routes>
       
