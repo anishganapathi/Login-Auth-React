@@ -25,7 +25,7 @@ const Login = () => {
      <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-5 md:mx-0 md:my-0">
       <div className="md:w-1/3 max-w-sm">
         <img
-          src="https://scontent.ftir1-2.fna.fbcdn.net/v/t39.30808-6/348423680_203289359200691_944283017405877416_n.png?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=gRxBemeiLYsAX-sl1Of&_nc_ht=scontent.ftir1-2.fna&oh=00_AfDDyGFCYlirSvkOmiR5c5HLKXoHHk3dqbwoHlNXCNC3RA&oe=65045702"
+          src="https://pbs.twimg.com/profile_images/1263670964841144322/C34rUL19_400x400.jpg"
           alt="Sample image"
         />
       </div>
