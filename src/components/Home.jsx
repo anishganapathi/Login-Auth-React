@@ -1,11 +1,9 @@
-import React from 'react'
+import Spline from '@splinetool/react-spline';
 
 function Home() {
   return (
-    <div>
-      
-    </div>
-  )
+    <Spline scene="https://prod.spline.design/Q9x2SIWgAX00vbyw/scene.splinecode" />
+  );
 }
 
 export default Home;
