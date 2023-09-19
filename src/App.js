@@ -1,6 +1,6 @@
 import React from 'react';
 import Login from '../src/components/Login';
-import Profile from "./pages/profile";
+// import Profile from "./pages/profile";
 import Home from "./components/Home";
 
 
@@ -14,7 +14,7 @@ function App() {
       <Router>
     
         <Routes>
-          <Route path="/profile" element={<Profile />} />
+          {/* <Route path="/profile" element={<Profile />} /> */}
           <Route exact path="/" element={<Login/>}/>
           <Route path="/home" element={<Home />} />
         </Routes>
