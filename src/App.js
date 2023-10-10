@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
   
-      {/* <Router>
+      <Router>
     
         <Routes>
           <Route path="/about" element={<Profile />} />
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/home" element={<Home/>}/>
         </Routes>
       
-    </Router> */}
+    </Router>
     </div>
   );
 }
